@@ -31,7 +31,7 @@ namespace Unit03.Game
             foreach(string line in System.IO.File.ReadLines(path)){
                 wordsList.Add(line);
             }
-            wordsList.AddRange(System.IO.File.ReadAllLines(path));
+            // wordsList.AddRange(System.IO.File.ReadAllLines(path));
             wordsList.AddRange(@"subjective
 monsters
 asylum
